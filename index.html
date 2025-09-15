@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Sri Rahayu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sparkle Elements -->
+  <div class="sparkle" style="top:80%; left:10%; animation-delay: 0s;"></div>
+  <div class="sparkle" style="top:85%; left:30%; animation-delay: 1s;"></div>
+  <div class="sparkle" style="top:90%; left:50%; animation-delay: 2s;"></div>
+  <div class="sparkle" style="top:88%; left:70%; animation-delay: 3s;"></div>
+  <div class="sparkle" style="top:82%; left:85%; animation-delay: 1.5s;"></div>
+
+  <div class="container">
+    <!-- Profil -->
+    <div class="profile">
+      <img src="images/WhatsApp Image 2025-09-10 at 19.01.28.jpeg">
+      <h1>Sri Rahayu 🌸</h1>
+      <p>Hai! Aku Sri Rahayu,Hai! Aku Sri Rahayu 💕
+Pelajar DKV yang suka desain, warna pastel, bunga, dan segala hal yang menggemaskan~ 🌸
+
+Di sini kamu bisa lihat karya-karya kecilku yang aku buat dengan cinta, dari ilustrasi digital sampai desain branding. Aku percaya bahwa desain bukan cuma soal cantik, tapi juga bisa menyampaikan pesan dan bikin hati hangat 💖
+
+Terima kasih udah mampir, semoga kamu suka~ ✨
+~</p>
+    </div>
+
+    <!-- Galeri -->
+    <h2 class="section-title">🧁 Karya saya</h2>
+    <div class="gallery">
+      <img src="images/WhatsApp Image 2025-09-10 at 19.15.13 (1).jpeg" alt="Karya 1">
+      <img src="images/WhatsApp Image 2025-09-10 at 19.15.13 (2).jpeg" alt="Karya 2">
+      <img src="images/WhatsApp Image 2025-09-10 at 19.15.13.jpeg" alt="Karya 3">
+      <img src="karya4.jpg" alt="Karya 4">
+    </div>
+
+</body>
+</html>
+<section id="contact">
+  <h2>Hubungi Saya</h2>
+  <form id="wa-form">
+    <input type="text" id="nama" placeholder="Nama Anda" required>
+    <input type="email" id="email" placeholder="Email Anda" required>
+    <textarea id="pesan" placeholder="Tulis pesan..." required></textarea>
+    <button type="submit">Kirim via WhatsApp</button>
+  </form>
+</section>
+
+<!-- Script -->
+<script>
+  document.getElementById("wa-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    // Ambil data dari form
+    let nama = document.getElementById("nama").value;
+    let email = document.getElementById("email").value;
+    let pesan = document.getElementById("pesan").value;
+
+    // Nomor WA tujuan (pakai kode negara, tanpa + atau 0)
+    let nomor = "6283143238104";
+
+    // Format teks untuk WA
+    let text = `Halo, saya *${nama}* (%20${email}).%0A%0A${pesan}`;
+
+    // Buat link WA
+    let url = `https://wa.me/${6283143238104}?text=${text}`;
+
+    // Buka di tab baru
+    window.open(url, "_blank");
+  });
+</script>
+
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 Sri Rahayu |  💕
+    </footer>
+  </div>
+
+</body>
+</html>
