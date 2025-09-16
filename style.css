@@ -147,7 +147,6 @@ footer {
   pointer-events: none;
   opacity: 0.8;
 }
-
 @keyframes sparkle {
   0% {
     transform: translateY(0) scale(1);
@@ -284,7 +283,6 @@ body {
   width: 70%;
   background-color: #caffbf;
 }
-
 
 
 
