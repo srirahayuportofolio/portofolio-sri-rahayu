@@ -158,16 +158,6 @@ footer {
     opacity: 0;
   }
 }
-@keyframes sparkle {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-200px) scale(0.5);
-    opacity: 0;
-  }
-}
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fef6f9;
@@ -294,6 +284,7 @@ body {
   width: 70%;
   background-color: #caffbf;
 }
+
 
 
 
