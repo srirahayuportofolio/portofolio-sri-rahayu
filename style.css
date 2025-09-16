@@ -283,6 +283,73 @@ body {
   width: 70%;
   background-color: #caffbf;
 }
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FFF7F1;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+/* Container utama */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Kotak judul */
+.judul-box {
+  background-color: #F3E8FF; /* Ungu pastel muda */
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Judul "Daftar Isi" */
+.judul-daftar-isi {
+  font-family: 'Georgia', serif;
+  font-size: 20px; /* Lebih kecil */
+  color: #BFA2DB; /* Ungu pastel */
+  margin: 0;
+}
+
+/* Daftar isi */
+.daftar-isi {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Setiap item */
+.daftar-isi li {
+  background-color: #E6ECFF; /* Pastel biru muda */
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4A4E69;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s;
+}
+
+.daftar-isi li:hover {
+  background-color: #d9e2ff;
+  cursor: default;
+}
+
+
+
 
 
 
